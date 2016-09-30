@@ -1,0 +1,5 @@
+﻿  VisualGDB: Run "cmd.exe /c "C:\SysGCC\arm-eabi\bin\make.exe" CONFIG=Debug -j4" in directory "C:\Users\tabea\Documents\Projects\EmbeddedProject4\EmbeddedProject4" on local computer
+  make: Nothing to be done for `all'.
+  ------------------- Memory utilization report -------------------
+  Used FLASH: 700 bytes out of 62KB (1%)
+  Used RAM: 28 bytes out of 16KB (0%)

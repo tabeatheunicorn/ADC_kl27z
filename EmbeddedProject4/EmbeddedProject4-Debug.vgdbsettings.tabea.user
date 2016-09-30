@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<VisualGDBUserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UserDefinedVariableValues />
+  <DebugPreferences xsi:type="com.visualgdb.debug.embedded.preferences">
+    <CatchpointConfiguration>
+      <Throw>false</Throw>
+      <Rethrow>false</Rethrow>
+      <Catch>false</Catch>
+      <Exec>false</Exec>
+      <Fork>false</Fork>
+      <Vfork>false</Vfork>
+      <Syscalls />
+    </CatchpointConfiguration>
+    <FavoriteEmbeddedRegisters />
+    <LiveVariables>
+      <LiveVariable>
+        <Expression>ergebnis</Expression>
+        <Type>SInt32</Type>
+        <Enabled>true</Enabled>
+        <Breakpoint>
+          <ComparisonMode>Equals</ComparisonMode>
+          <Enabled>false</Enabled>
+        </Breakpoint>
+        <Plot>false</Plot>
+      </LiveVariable>
+      <LiveVariable>
+        <Expression>ADC0_PG</Expression>
+        <Type>UInt32</Type>
+        <Enabled>true</Enabled>
+        <Breakpoint>
+          <ComparisonMode>Equals</ComparisonMode>
+          <Enabled>false</Enabled>
+        </Breakpoint>
+        <Plot>false</Plot>
+        <PreprocessedExpression>((((ADC_Type *)(0x4003B000u)))-&gt;PG)</PreprocessedExpression>
+      </LiveVariable>
+      <LiveVariable>
+        <Expression>ADC0_CLP0</Expression>
+        <Type>HexInt32</Type>
+        <Enabled>true</Enabled>
+        <Breakpoint>
+          <ComparisonMode>Equals</ComparisonMode>
+          <Enabled>false</Enabled>
+        </Breakpoint>
+        <Plot>false</Plot>
+        <PreprocessedExpression>((((ADC_Type *)(0x4003B000u)))-&gt;CLP0)</PreprocessedExpression>
+      </LiveVariable>
+      <LiveVariable>
+        <Expression>SC1_0</Expression>
+        <Type>HexInt32</Type>
+        <Enabled>true</Enabled>
+        <Breakpoint>
+          <ComparisonMode>Equals</ComparisonMode>
+          <Enabled>false</Enabled>
+        </Breakpoint>
+        <Plot>false</Plot>
+        <PreprocessedExpression>((*((unsigned long *)0x4003b000)))</PreprocessedExpression>
+      </LiveVariable>
+      <LiveVariable>
+        <Expression>R_0</Expression>
+        <Type>HexInt32</Type>
+        <Enabled>true</Enabled>
+        <Breakpoint>
+          <ComparisonMode>Equals</ComparisonMode>
+          <Enabled>false</Enabled>
+        </Breakpoint>
+        <Plot>false</Plot>
+        <PreprocessedExpression>((*((unsigned long *)0x4003b010)))</PreprocessedExpression>
+      </LiveVariable>
+      <LiveVariable>
+        <Expression>R_1</Expression>
+        <Type>HexInt32</Type>
+        <Enabled>true</Enabled>
+        <Breakpoint>
+          <ComparisonMode>Equals</ComparisonMode>
+          <Enabled>false</Enabled>
+        </Breakpoint>
+        <Plot>false</Plot>
+        <PreprocessedExpression>((*((unsigned long *)0x4003b014)))</PreprocessedExpression>
+      </LiveVariable>
+      <LiveVariable>
+        <Expression>main::active</Expression>
+        <Type>SInt32</Type>
+        <Enabled>true</Enabled>
+        <Breakpoint>
+          <ComparisonMode>Equals</ComparisonMode>
+          <Enabled>false</Enabled>
+        </Breakpoint>
+        <Plot>false</Plot>
+      </LiveVariable>
+    </LiveVariables>
+  </DebugPreferences>
+</VisualGDBUserPreferences>
